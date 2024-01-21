@@ -73,5 +73,12 @@
 			</releases>
 		</pluginRepository>
 	</pluginRepositories>
+	<distributionManagement>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>a0rmvf3vuoxqi-artifactory-primary-0-snapshots</name>
+        <url>https://devopslab1.jfrog.io/artifactory/demo-libs-snapshot</url>
+    </snapshotRepository>
+</distributionManagement>
 
 </project>
