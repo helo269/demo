@@ -8,7 +8,7 @@
 
 name: Java CI with Maven
 
-on: githubActions
+runs on: sel-hosted
   push:
     branches: [ teja ]
   pull_request:
