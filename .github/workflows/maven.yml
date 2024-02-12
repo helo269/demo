@@ -27,8 +27,6 @@ jobs:
         java-version: '17'
         distribution: 'temurin'
         cache: maven
-    - name: action-maven
-      uses: comchangs/action-maven@v0.4-beta
     - name: Build with Maven
       run: mvn -B package --file pom.xml
 
