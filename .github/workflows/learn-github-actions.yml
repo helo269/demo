@@ -8,11 +8,11 @@
 
 name: Java CI with Maven
 
-runs on: sel-hosted
+runs on: self-hosted
   push:
-    branches: [ teja ]
+    branches: [ "teja" ]
   pull_request:
-    branches: [ teja ]
+    branches: [ "teja" ]
 
 jobs:
   build:
